@@ -34,7 +34,7 @@
 		843E8BAF2B6AB40E00BF2DE9 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		843E8BB12B6AB7F200BF2DE9 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		843E8BB32B6ABA4300BF2DE9 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
-		845AB7202B56D27200CFB0CA /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845AB7202B56D27200CFB0CA /* code_history.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = code_history.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845AB7232B56D27200CFB0CA /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
 		845AB7252B56D27200CFB0CA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		845AB7272B56D27300CFB0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		845AB7172B56D27200CFB0CA = {
 			isa = PBXGroup;
 			children = (
-				845AB7222B56D27200CFB0CA /* Code History */,
+				845AB7222B56D27200CFB0CA /* code_history */,
 				845AB7212B56D27200CFB0CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,12 +95,12 @@
 		845AB7212B56D27200CFB0CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				845AB7202B56D27200CFB0CA /* Code History.app */,
+				845AB7202B56D27200CFB0CA /* code_history.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		845AB7222B56D27200CFB0CA /* Code History */ = {
+		845AB7222B56D27200CFB0CA /* code_history */ = {
 			isa = PBXGroup;
 			children = (
 				843E8BAD2B6A815100BF2DE9 /* Models */,
@@ -110,7 +110,7 @@
 				845AB7272B56D27300CFB0CA /* Assets.xcassets */,
 				845AB7292B56D27300CFB0CA /* Preview Content */,
 			);
-			path = "Code History";
+			path = code_history;
 			sourceTree = "<group>";
 		};
 		845AB7292B56D27300CFB0CA /* Preview Content */ = {
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		845AB71F2B56D27200CFB0CA /* Code History */ = {
+		845AB71F2B56D27200CFB0CA /* code_history */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845AB72E2B56D27300CFB0CA /* Build configuration list for PBXNativeTarget "Code History" */;
+			buildConfigurationList = 845AB72E2B56D27300CFB0CA /* Build configuration list for PBXNativeTarget "code_history" */;
 			buildPhases = (
 				845AB71C2B56D27200CFB0CA /* Sources */,
 				845AB71D2B56D27200CFB0CA /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = "Code History";
+			name = code_history;
 			productName = "Code History";
-			productReference = 845AB7202B56D27200CFB0CA /* Code History.app */;
+			productReference = 845AB7202B56D27200CFB0CA /* code_history.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 845AB71B2B56D27200CFB0CA /* Build configuration list for PBXProject "Code History" */;
+			buildConfigurationList = 845AB71B2B56D27200CFB0CA /* Build configuration list for PBXProject "code_history" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				845AB71F2B56D27200CFB0CA /* Code History */,
+				845AB71F2B56D27200CFB0CA /* code_history */,
 			);
 		};
 /* End PBXProject section */
@@ -330,7 +330,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"code_history/Preview Content\"";
 				DEVELOPMENT_TEAM = QB9WG2GGL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Code History/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"code_history/Preview Content\"";
 				DEVELOPMENT_TEAM = QB9WG2GGL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		845AB71B2B56D27200CFB0CA /* Build configuration list for PBXProject "Code History" */ = {
+		845AB71B2B56D27200CFB0CA /* Build configuration list for PBXProject "code_history" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				845AB72C2B56D27300CFB0CA /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		845AB72E2B56D27300CFB0CA /* Build configuration list for PBXNativeTarget "Code History" */ = {
+		845AB72E2B56D27300CFB0CA /* Build configuration list for PBXNativeTarget "code_history" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				845AB72F2B56D27300CFB0CA /* Debug */,
